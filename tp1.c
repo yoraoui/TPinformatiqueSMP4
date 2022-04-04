@@ -1,5 +1,5 @@
 
-#Exercice 1
+//Exercice 1
 
 #include <stdio.h>
 main()
@@ -16,11 +16,11 @@ main()
 }
 
 
-#Exercice 2
-Ecrire un programme qui reçoit la valeur du rayon d’un cercle et calcule :
+//Exercice 2
+/*Ecrire un programme qui reçoit la valeur du rayon d’un cercle et calcule :
 - le périmètre : 2 * Pi * r
 - la surface    :    Pi * r2
-
+*/
 
 #include <stdio.h>
 #include <math.h>
@@ -39,12 +39,12 @@ int main(void)
     printf("\n Surface = %.2f\n",Surface);
 }
 
-#Exercice 2
-
+//Exercice 4
+/*
 Ecrire un programme qui calcule et affiche l'aire d'un triangle dont il faut entrer les longueurs des trois côtés. Utilisez la formule :
 S2 = P(P-A)(P-B)(P-C)
 où A, B, C sont les longueurs des trois côtés (type int) et P le demi-périmètre du triangle.
-  
+  */
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -64,8 +64,7 @@ int main()
 
 }
 
-
-
+//Exercice 5
 #include <stdio.h>
 #include <math.h>
 main()
