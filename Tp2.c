@@ -24,8 +24,17 @@ int main(){
         Max = b;
     else
         Max = c;
-    printf(" Max = \t %d", Max);
+    printf(" Max = \t %d", Max);}
 
+//Exercice 1.2 (deuxième méthode)
+int main() {
+    int  a, b, c, Max, MaxP;
+    printf("saisir a, b, c\n");
+    scanf("%d%d%d", &a, &b, &c);
+    Max = (a>b)?a:b;
+    MaxP = (Max>c)?Max:c;
+    printf(" Max = \t %d", MaxP);
+}
 //Exercice 2
 int main(){
     int a, b, c, temp;
