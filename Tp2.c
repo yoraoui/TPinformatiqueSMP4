@@ -91,9 +91,11 @@ int main(){
 
 
 //Exercice 6
+
 int main(void){
-    int a, b, c, t;
-    a = 1; b=2; c = 4;
+    float a, b, c; int t;
+    printf("Saisir a, b, c : ");
+    scanf("%f%f%f", &a, &b, &c);
     float  x1, x2, delta;
     delta = pow(b, 2) - 4*a*c;
     if (delta >0)
@@ -124,5 +126,4 @@ int main(void){
     else if (t == 3)
         printf("x = \t%f +- j%f", x1, x2);
 }
-
 
