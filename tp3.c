@@ -94,7 +94,7 @@ int main() {
 }
 
 
-//ex4
+//ex5
 
 //test entree 3 -- sortie 10.5
 
