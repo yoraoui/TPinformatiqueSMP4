@@ -161,3 +161,24 @@ int main(){
 
     printf("un = \t%d", un);
 }
+
+/*
+Exercice Afficher 
+1 3 5 7
+1 4 7 10 13
+1 5 9 13 17 21
+1 6 11 16 21 26 31
+*/  
+int main() {
+int n = 4, cmpt = 4, i, j;
+for (i = 0; i < n; i++) {
+    j = 1;
+    k = 1;
+    while (k<=4+i){
+        printf("%d ", j);
+        j +=2+i;
+        k++;
+    }
+    printf("\n");
+}
+}
