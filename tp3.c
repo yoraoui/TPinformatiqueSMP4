@@ -57,7 +57,7 @@ int main() {
     for (k = 2; k <= n; k++) {
         check = 0; //nombre k premier
 
-        for (i = 2; i <k/2 ; i++) {
+        for (i = 2; i <k ; i++) {
             if (k % i == 0)
                 check = 1;
         }
