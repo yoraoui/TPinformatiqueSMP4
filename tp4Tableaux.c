@@ -135,6 +135,28 @@ int main() {
 
 }
 
+deuxième méthode
+
+#define  size 6
+int main() {
+    int T[size] = {3, 1, 7, 33, 10, 2}, i, j;
+    int minIndex, temp;
+    for (i = 0; i < size; i++) {
+        minIndex = i;
+        for (j = i + 1; j < size; j++) {
+            if (T[minIndex] > T[j])
+                minIndex = j;
+        }
+        temp = T[i];
+        T[i] = T[minIndex];
+        T[minIndex] = temp;
+
+    }
+    for (i = 0; i < size; i++)
+        printf("%d\t", T[i]);
+}
+
+
 //Exercice 5
 
 int main() {
