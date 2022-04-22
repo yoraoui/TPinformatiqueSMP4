@@ -63,6 +63,29 @@ int main(){
 
 }
 
+//Deuxième méthode
+
+#include <stdio.h>
+#define  N 6
+int main(){
+    int T[N] = {2,33,11,444,99,7};
+    int maxIndex = 0;
+    int minIndex = 0;
+    for(size_t i = 1; i< N; i++){
+
+        if (T[i]>T[maxIndex])
+            maxIndex = i;
+
+        if (T[i]<T[minIndex])
+                minIndex = i;
+    }
+
+    printf("Index Max = %d Max = %d\n", maxIndex, T[maxIndex]);
+    printf("Index Min = %d Min = %d\n", minIndex, T[minIndex]);
+
+}
+
+
 //Exercice 3
 
 int main() {
