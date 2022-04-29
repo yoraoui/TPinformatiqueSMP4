@@ -34,32 +34,26 @@ int main() {
 
 //Ex1 b
 
-int main() {
-    //Initialisation de la matrice A et B
-    int A[M][M] = {{2, 3, 4},
-                   {5, 6, 7}};
+int main(){
 
+    int T[3][2] = {{2,3}, {5,9}, {33,2}};
     int temp;
-    //Permutation des elements de A
-    for (size_t i = 0; i < N; i++)
-        for (size_t j = 0; j < M; j++) {
-            temp = A[i][j];
-            A[i][j] = A[j][i];
-            A[j][i] = temp;
-        }
-    //Affichage
-    printf("{");
-    for (size_t i = 0; i < M; i++){
-        for (size_t j = 0; j < N; j++){
-            printf("%d", A[i][j]);
-            if (j< N-1)
-                printf(",");
-        }
-        if(i<M-1)
-            printf("\n");}
-    printf("}");
-}
+    for(size_t i = 0; i<3; i++){
 
+        for(size_t j = 0; j<i; j++){
+            temp = T[i][j];
+            T[i][j] = T[j][i];
+            T[j][i] = temp;
+        }}
+        
+        for(size_t i = 0; i<2; i++){
+
+            for(size_t j = 0; j<3; j++){
+                printf("\t %d", T[i][j]);
+            }
+            printf("\n");
+            }
+}
 
 //Ex2 1
 int main() {
