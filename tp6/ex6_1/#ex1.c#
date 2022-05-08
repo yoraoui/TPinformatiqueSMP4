@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define  EXIT_SUCCESS 1
+#define  EXIT_FAILURE 0
+
+int compareArrays(int*, int*, int );
+int* exo1(int *A, int x, int n){
+  int *p1 = A;
+  ans = exo1(arr2, 2, 10);
+    int correct2[10] = {3, 5, 3, 3, 0, 0, 0, 0, 0, 0};
+    if  (compareArrays(ans, correct2, 10) == 0)  return EXIT_FAILURE;
+
+
+    printf("\t exercice 1 OK  \n\n");
+    return EXIT_SUCCESS;
+}
+

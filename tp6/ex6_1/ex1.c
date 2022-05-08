@@ -2,9 +2,9 @@
 #define  EXIT_SUCCESS 1
 #define  EXIT_FAILURE 0
 
-
+int compareArrays(int*, int*, int );
 int* exo1(int *A, int x, int n){
-int *p1 = A, *p2;
+int *p1 = A;
 int j = 0, k;
 while(j<n){
     if (*(p1+j) == x) {
@@ -21,18 +21,6 @@ while(j<n){
     return  p1;
 
 }
-
-int compareArrays(int a[], int b[], int n) {
-    int ii;
-    for(ii = 1; ii < n; ii++) {
-        if (a[ii] != b[ii]) return 0;
-        // better:
-        // if(fabs(a[ii]-b[ii]) < 1e-10 * (fabs(a[ii]) + fabs(b[ii]))) {
-        // with the appropriate tolerance
-    }
-    return 1;
-}
-
 
 int main() {
     int arr[] = {15,12,12,11,8,10,12,11,5,1200,6,12,12,20,1992,16};;
