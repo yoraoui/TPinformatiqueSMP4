@@ -1,0 +1,3 @@
+
+ex1: ex1.o
+	gcc ex1 -o ex1.c
